@@ -1,0 +1,33 @@
+/* ----------------------
+    Mobile Screen
+  --------------------- */
+
+@media only screen and (max-width: 576px) {
+  .section-title {
+    text-align: center;
+  }
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player {
+    flex-direction: column;
+  }
+  .player .player-img img {
+    width: 150px;
+    height: 150px;
+  }
+  .player-name {
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+}
+
+/* ----------------------
+    Medium Screen
+  --------------------- */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .top-players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
