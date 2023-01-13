@@ -43,6 +43,9 @@
   .course .course-img img {
     width: 100%;
   }
+  .item {
+    display: none;
+  }
 }
 
 /* ----------------------
