@@ -34,6 +34,15 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  .latest-courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .course {
+    margin-bottom: 40px;
+  }
+  .course .course-img img {
+    width: 100%;
+  }
 }
 
 /* ----------------------
@@ -49,5 +58,17 @@
   }
   .blog .blog-img img {
     width: 300px;
+  }
+  .latest-courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .course-info {
+    width: 300px;
+  }
+  .course .course-img img {
+    width: 80vw;
+  }
+  .course {
+    margin-bottom: 80px;
   }
 }
