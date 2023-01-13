@@ -20,6 +20,20 @@
     font-size: 20px;
     margin: 10px 0 20px;
   }
+  .top-blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog .blog-img img {
+    width: 100%;
+  }
+  .blog-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 /* ----------------------
@@ -29,5 +43,11 @@
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   .top-players {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .top-blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog .blog-img img {
+    width: 300px;
   }
 }
